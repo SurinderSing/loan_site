@@ -1,0 +1,125 @@
+.container .menu ul li a {
+  color: #ffffff;
+}
+.header-img {
+  height: min(50vh, 35rem);
+  width: 100%;
+  background: url("../images/con_page_images/contact_us_header_img.webp")
+    no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.contact-us-sec > p {
+  text-align: justify;
+}
+.contact-us-sec > h2 {
+  text-align: center;
+}
+
+.contact-us-inner-1 {
+  margin-top: 3em;
+  display: flex;
+}
+.contact-us-inner-1 div {
+  margin: 0.5em;
+}
+.contact-us-inner-1 > div:nth-child(2) {
+  height: 100%;
+  min-height: 400px;
+  width: 100%;
+  background: #ffd4b1;
+  border-radius: 10px;
+  padding: 2em;
+}
+.contact-us-inner-1 img {
+  height: 100%;
+  width: 180px;
+}
+
+.contact-us-inner-2,
+.contact-us-inner-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.contact-us-inner-2 div,
+.contact-us-inner-3 div {
+  margin: 0.5em;
+  background: #ffffff;
+  border: 1px solid #f4f2ff;
+  box-shadow: 0px 4px 6px #f6f4ff;
+  min-height: 200px;
+  width: 100%;
+  min-width: 20rem;
+  flex-basis: 45%;
+  padding: 1em;
+}
+.contact-us-inner-2 div p,
+.contact-us-inner-3 div p {
+  font-size: 13px;
+}
+.contact-us-inner-3 div {
+  background: #f7fafd;
+}
+.contact-us-inner-3 .sec1 {
+  border: 1px solid #e13f16;
+}
+.contact-us-inner-3 .sec2 {
+  border: 1px solid #621c0d;
+}
+.contact-us-inner-4 {
+  display: flex;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+.contact-us-inner-4 .sec1 {
+  flex: 30%;
+  padding: 1em;
+  min-width: 200px;
+  text-align: -webkit-match-parent;
+}
+.contact-us-inner-4 .sec2 {
+  background: #f7fafd;
+  padding: 1em;
+  flex: 70%;
+  border-radius: 10px;
+}
+.contact-us-inner-4 .sec1 img {
+  height: 50px;
+  width: 50px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  flex: 40% !important;
+}
+select {
+  flex: 40% !important;
+}
+input[type="submit"] {
+  margin-left: auto !important;
+}
+.invalid-minimum-value {
+  display: none;
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 900px) {
+  #first-form-sec {
+    padding: 5rem 0em;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .contact-us-inner-1 .sec1 {
+    display: none;
+  }
+}

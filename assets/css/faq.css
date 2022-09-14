@@ -1,0 +1,52 @@
+.container .menu ul li a {
+  color: #ffffff;
+}
+.header-img {
+  height: min(50vh, 35rem);
+  width: 100%;
+  background: url("../images/faq/FAQ-header.webp") no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.faq-sec > h2,
+.faq-sec > p {
+  text-align: center;
+}
+
+.faq-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.faq-sec2-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq-sec2-inner form {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  flex: 40% !important;
+}
+input[type="submit"] {
+  margin-left: auto !important;
+}
+
+@media only screen and (max-width: 900px) {
+  details {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .g-recaptcha {
+    transform: scale(0.75) translateX(-15%);
+  }
+}

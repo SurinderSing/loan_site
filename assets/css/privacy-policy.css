@@ -1,0 +1,39 @@
+.container .menu ul li a {
+  color: #ffffff;
+}
+.header-img {
+  height: min(50vh, 35rem);
+  width: 100%;
+  background: url("../images/privacy-policy/privacy-policy-header.webp")
+    no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.privacy-policy-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+details {
+  width: 100% !important;
+  border-radius: 9px 9px 0px 0px;
+  padding: 0;
+}
+details > p {
+  margin: 1em;
+}
+details ul {
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+details ul li {
+  list-style: disc;
+}
+summary {
+  padding: 0.5em;
+  background: #f8f8f8;
+}

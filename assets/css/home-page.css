@@ -1,0 +1,475 @@
+.container .Home {
+  background: url("../images/home-page/home-page-Bg.webp") no-repeat center
+    center/cover;
+  width: 100%;
+  /* min-height: 75vh; */
+  max-height: 70rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10em;
+  padding-bottom: 13em;
+}
+
+.container .Home .home-left {
+  align-self: flex-start;
+  flex-basis: 55%;
+}
+.container .Home .home-left .home-heading {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+  color: #e13f16;
+}
+.container .Home .home-left .home-pera {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 5px;
+}
+.loan-calculator {
+  position: relative;
+}
+.loan-calculator .loan-calculator-card {
+  position: relative;
+  margin-top: -200px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.loan-calculator-card .loan-calculator-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  color: #2f2b54;
+}
+.loan-calculator-card .loan-calculator-sec-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.loan-calculator-card .loan-calculator-sec-1 > span {
+  background: #ffffff;
+  border: 2px solid #c9c9c9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  margin: 0.5em;
+  flex: 1;
+}
+.loan-calculator-card .loan-calculator-sec-1 > span > div {
+  display: flex;
+  align-items: center;
+}
+.loan-calculator-card .loan-calculator-sec-1 > span > div img {
+  margin-right: 1em;
+}
+.man-img {
+  position: absolute;
+  top: -415px;
+  right: 170px;
+}
+.man-img img {
+  width: 250px;
+  height: 250px;
+}
+
+.loan-calculator-sec-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.loan-calculator-sec-2 div:nth-child(1) {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 0.5em 0 2em 0;
+}
+.loan-calculator-sec-2 div > span {
+  flex-basis: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  color: #000000;
+  border-right: 1.5px dashed #c0c0c0;
+  padding-inline: 20px;
+}
+.loan-calculator-sec-2 div > span:nth-child(3) {
+  border-right: 1.5px dashed transparent;
+}
+.loan-calculator-sec-2 div > span > span:nth-child(2) {
+  font-weight: 600;
+}
+.loan-calculator-sec-2 .calculate-btn {
+  width: 170px;
+  height: 40px;
+  background: rgb(225, 63, 22);
+  font-style: normal;
+  font-size: 22px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+.archive-financial-goals .goals-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #e13f16;
+  text-align: center;
+}
+.archive-financial-goals .goals-card {
+  width: 95%;
+  min-height: 210px;
+  background: #ffffff;
+  box-shadow: 0px 20px 20px #f4f2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-inline: auto;
+}
+.archive-financial-goals .gaols-cards-container {
+  width: 95%;
+  min-height: 70%;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 2em; */
+  /* flex-wrap: wrap; */
+}
+.archive-financial-goals .gaols-cards-container div {
+  max-width: 260px;
+  padding: 1em 2em 1em 1em;
+  /* border-right: 1px dashed #c0c0c0; */
+  text-align: center;
+}
+
+.archive-financial-goals .gaols-cards-container div:nth-child(4) {
+  border-right: transparent;
+}
+
+.about-mycredit-india,
+.instant-loan-made-easy {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-mycredit-india p,
+.instant-loan-made-easy .right-sec p {
+  line-height: 28px;
+  text-align: left;
+}
+
+.about-mycredit-india .left-sec,
+.instant-loan-made-easy .right-sec {
+  flex-basis: 60%;
+}
+.about-mycredit-india .left-sec {
+  margin-right: 4rem;
+}
+/* .instant-loan-made-easy .right-sec {
+  margin-left: 4rem;
+} */
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  width: 150px;
+  background: #e13f16;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  width: -webkit-fill-available;
+}
+.chart-container img {
+  width: 60%;
+}
+.our-services h2 {
+  text-align: center;
+}
+.our-services .our-services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our-services .our-services-container .services-card {
+  background: #ffffff;
+  box-shadow: 0px 5px 10px #f4f2ff;
+  width: -webkit-fill-available;
+  max-width: 350px;
+  margin: 1rem;
+}
+.our-services .our-services-container .services-card .services-img img {
+  width: 100%;
+}
+.our-services .our-services-container .services-card > div:not(.services-img) {
+  line-height: 30px;
+  margin: 1rem;
+}
+.our-services .our-services-container .services-card .apply-now-btn {
+  margin: 0 !important;
+  padding: 0.6em;
+  cursor: pointer;
+}
+.our-services .our-services-container .services-card .apply-now-btn:hover {
+  background-color: rgba(225, 63, 22, 0.1);
+}
+.steps-to-loan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+/* .steps-to-loan .steps-to-loan-img {
+  width: 57%;
+} */
+.steps-to-loan .steps-to-loan-img img {
+  height: 600px;
+}
+.steps-to-loan-right {
+  margin: 0 10% 0 1em;
+}
+.steps-to-loan .steps-to-loan-right .steps-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+.steps-to-loan .steps-to-loan-right .steps-map .map-step {
+  flex: 1;
+  margin-inline: 2rem;
+}
+.steps-to-loan .steps-to-loan-right .steps-map .map-step img {
+  height: 450px;
+}
+.steps-to-loan
+  .steps-to-loan-right
+  .steps-map
+  .map-step-right-sec
+  > div:nth-child(1) {
+  background: #f8f8f8;
+}
+.map-step-right-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 30rem;
+}
+.steps-to-loan .steps-to-loan-right .steps-map .map-step-right-sec > div {
+  padding: 1rem;
+}
+.steps-to-loan .steps-to-loan-right .steps-map .map-step-right-sec > div > div,
+.steps-to-loan
+  .steps-to-loan-right
+  .steps-map
+  .map-step-right-sec
+  > div
+  > div
+  p {
+  text-align: left;
+}
+
+/* Apply Form Module::-- */
+
+.apply-now-module-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+}
+.apply-now-module {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.apply-now-module .sec form {
+  padding: 0.5em 1em;
+}
+.apply-now-module .sec input {
+  margin: 0.2em 0;
+}
+
+.Module-heading {
+  width: 100%;
+  background-color: #ffd4b1;
+  padding: 0.5em;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 1em;
+  cursor: pointer;
+}
+.close-module span {
+  height: 5px;
+  width: 30px;
+  margin-bottom: 3px;
+  background-color: #ffff;
+  border-radius: 5px;
+  transform: rotateZ(45deg) translateX(6px);
+}
+.close-module span:nth-child(even) {
+  transform: rotateZ(135deg) translateX(-5px);
+}
+.check-box-text {
+  line-height: 25px;
+  font-size: 12px;
+}
+.invalid-minimum-value {
+  display: none;
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container .Home .home-left .home-heading {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .container .Home .home-left .home-pera {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .archive-financial-goals .gaols-cards-container {
+    flex-wrap: wrap;
+  }
+  .archive-financial-goals .gaols-cards-container div {
+    max-width: 260px;
+    min-width: 170px;
+    padding-right: 0em;
+    padding-left: 1em;
+    border-right: none;
+    text-align: center;
+  }
+  .apply-now-module {
+    width: 97%;
+    max-width: auto;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .container .Home {
+    display: block;
+    padding-top: 10em;
+    padding-bottom: 15em;
+  }
+  .man-img {
+    display: none;
+  }
+  .chart-container img {
+    width: 95%;
+  }
+  .about-mycredit-india .left-sec,
+  .instant-loan-made-easy .right-sec {
+    flex-basis: auto;
+  }
+  .about-mycredit-india .left-sec {
+    margin-right: 0;
+  }
+  .about-mycredit-india p,
+  .instant-loan-made-easy .right-sec p {
+    line-height: 28px;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 650px) {
+  section {
+    padding: 2rem 1em;
+  }
+  .container .Home .home-left .home-heading {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .container .Home .home-left .home-pera {
+    font-size: 14px !important;
+    line-height: 30px;
+    text-align: center;
+  }
+  .loan-calculator .loan-calculator-card {
+    position: static;
+  }
+  .loan-calculator-sec-2 div:nth-child(1) {
+    flex-direction: column;
+  }
+  .loan-calculator-sec-2 div > span {
+    border-right: none;
+  }
+  .about-mycredit-india .right-sec img,
+  .instant-loan-made-easy .left-sec img {
+    height: 250px;
+    width: 250px;
+  }
+  .loan-calculator-card .loan-calculator-heading {
+    font-size: 18px !important;
+  }
+  .archive-financial-goals .gaols-cards-container div h3 {
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .loan-calculator-sec-2 div > span {
+    margin-top: 12px;
+  }
+  .steps-to-loan .steps-to-loan-img img {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Module-heading > h1 {
+    font-size: 20px;
+  }
+  .apply-now-module .sec input:not(input[type=submit], input[type=checkbox]) {
+    height: 37px;
+  }
+  .check-box-text span{
+    font-size: 10px !important;
+  }
+
+}

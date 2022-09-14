@@ -1,0 +1,64 @@
+.container .menu ul li a {
+  color: #ffffff;
+}
+.header-img {
+  height: min(50vh, 35rem);
+  width: 100%;
+  background: url("../images/services-page/Services-head.webp") no-repeat
+    center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+section:nth-child(even) {
+  flex-wrap: wrap-reverse;
+}
+section:nth-child(even) .service-sec-right {
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 2rem;
+}
+section:nth-child(even) .service-sec-left {
+  text-align: left;
+  margin-bottom: 0;
+  min-width: 26rem;
+}
+
+section img {
+  height: 350px;
+  width: 350px;
+  margin-inline: 1em;
+}
+.service-sec p {
+  line-height: 2;
+  margin-bottom: 1em;
+}
+.service-sec-left,
+.service-sec-right {
+  flex: 1;
+}
+.service-sec-right {
+  min-width: 18rem;
+}
+.service-sec-left {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+  section img {
+    height: 250px;
+    width: 250px;
+  }
+  section:nth-child(even) .service-sec-left {
+    min-width: 12rem;
+  }
+}
